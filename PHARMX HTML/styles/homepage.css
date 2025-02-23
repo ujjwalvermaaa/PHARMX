@@ -1,0 +1,324 @@
+/* Header */
+header {
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header .logo i {
+    margin-right: 0.5rem;
+  }
+  
+  header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  header .auth-buttons .btn-login,
+  header .auth-buttons .btn-signup {
+    background-color: #4CAF50;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('assets/images/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #searchForm {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #searchInput {
+    padding: 0.5rem;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  #searchForm button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0 5px 5px 0;
+    color: #ffffff;
+  }
+  
+  /* Medicine Store Section */
+  .medicine-store {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .medicine-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .medicine-card {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .medicine-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .medicine-card h3 {
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .medicine-card .price {
+    font-size: 1.2rem;
+    color: #4CAF50;
+  }
+  
+  .medicine-card .btn-buy {
+    background-color: #4CAF50;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 100%;
+  }
+
+  /* Doctor Consultation Section */
+.doctor-consultation {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .consultation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .consultation-card {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .consultation-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .consultation-card h3 {
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .consultation-card .btn-book {
+    background-color: #4CAF50;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 100%;
+  }
+  
+  /* Emergency Kits Section */
+  .emergency-kits {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .kit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .kit-card {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .kit-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .kit-card h3 {
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .kit-card .price {
+    font-size: 1.2rem;
+    color: #4CAF50;
+  }
+  
+  .kit-card .btn-buy {
+    background-color: #4CAF50;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 100%;
+  }
+  
+  /* Subscription Plans Section */
+  .subscription-plans {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .plan-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .plan-card {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .plan-card h3 {
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .plan-card .price {
+    font-size: 1.2rem;
+    color: #4CAF50;
+  }
+  
+  .plan-card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .plan-card ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .plan-card .btn-subscribe {
+    background-color: #4CAF50;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 100%;
+  }
+  
+  /* Medicine Reminders Section */
+  .medicine-reminders {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #reminderForm {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  #reminderForm input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #reminderForm button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
+  #reminderList {
+    margin-top: 2rem;
+    text-align: left;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1f1f1f;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icons a {
+    font-size: 1.5rem;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #333;
+  }
+
+  

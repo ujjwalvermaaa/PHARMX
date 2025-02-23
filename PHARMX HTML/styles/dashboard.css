@@ -1,0 +1,19 @@
+/* Dashboard Page Styles */
+.dashboard-container {
+    padding: 2rem;
+  }
+  
+  .dashboard-card {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard-card h3 {
+    margin: 0;
+  }
+  
+  .dashboard-card p {
+    margin: 0.5rem 0;
+  }

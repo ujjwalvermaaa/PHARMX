@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Paracetamol",
+      "description": "Relieves pain and fever. 500mg tablets.",
+      "price": 5.99,
+      "image": "assets/images/medicine1.jpg"
+    },
+    {
+      "name": "Ibuprofen",
+      "description": "Anti-inflammatory and pain relief. 400mg tablets.",
+      "price": 7.99,
+      "image": "assets/images/medicine2.jpg"
+    }
+  ]
